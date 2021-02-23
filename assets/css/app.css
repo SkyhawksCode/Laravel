@@ -1,0 +1,108 @@
+* {
+    color: rgb(0, 0, 0);
+}
+body {
+    background-color: lightblue;
+}
+.navbar {
+    /*background-color: #f85f6a;*/
+}
+.menubar {
+    background-color: black;
+}
+.card {
+    border: none;
+}
+.menubar .nav-link {
+    color: white!important;
+    opacity: 0.7;
+}
+.menubar .nav-link:hover {
+    color: white!important;
+    opacity: 1;
+}
+#logo {
+    width: 70%;
+}
+.app-nav {
+    background-image: url("../images/menuback.png");
+    background-repeat: no-repeat;
+    background-size: 85%;
+    background-position-y: top;
+    background-position-x: right;
+    padding: 0;
+    height: 70px;
+}
+.container-fluid {
+    padding: 0;
+}
+button.btn-space {
+    margin-left: 1em;
+}
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px;
+}
+th, td {
+    border: 1px solid black;
+}
+th {
+    text-align: center!important;
+    background-color: #d6f8ba;
+    line-height: 40px;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+    text-align: center!important;
+    border-collapse: collapse;
+}
+a svg {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 0 20px;
+}
+td a svg {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+td form {
+    display: inline-block;
+}
+td button svg {
+    margin: 0;
+    width: 20px;
+    height: 20px;
+}
+.form-group label {
+    width: 20%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.form-group input {
+    width: 79%;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 30px;
+    text-indent: 10px;
+}
+tr:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+}
+table {
+    margin: 0;
+    margin-top: 10px;
+}
+a.input-group {
+    width: 100px;
+    display: inline-block;
+}
+td svg {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+}
